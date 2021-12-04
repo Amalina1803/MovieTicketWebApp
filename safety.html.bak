@@ -1,0 +1,101 @@
+<!doctype html>
+<html><head><title>Safety Guidelines</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-red.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  background-image: url("sop.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  }
+
+</style>
+<body>
+<!--black background-->
+	<body style="background-color:black;">
+<!-- Simple header with scrollable tabs. -->
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header" style="background-color:black">
+			<div class="mdl-layout__header-row">
+			
+      <!-- Title -->
+			<img src="lightcinema.JPG" width="260" height="70">
+			<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+	</div>
+	</div>
+		
+    <!-- Tabs -->
+    <div style="background-color:black"class="mdl-layout__tab-bar mdl-js-ripple-effect" >
+		<a href="#scroll-tab-1" class="mdl-layout__tab is-active"><font color="white">SAFETY GUIDELINES</a></font>
+    </div>
+		</header>
+		
+	<!-- drawer "Menu"-->	
+	<div class="mdl-layout__drawer">
+		<span class="mdl-layout-title">MENU</span>
+		<nav class="mdl-navigation">
+			<a class="mdl-navigation__link" href="home.html">NOW SHOWING</a>
+			<a class="mdl-navigation__link" href="bookticket.html">BOOK A TICKET</a>
+			<a class="mdl-navigation__link" href="safety.html">SAFETY GUIDDELINES</a>
+			<a class="mdl-navigation__link" href="fnb.html">FOOD & BEVERAGES</a>
+		</nav>
+	</div>
+	
+	<main class="mdl-layout__content">
+		<!--First Tab-->
+		<section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+		<div class="page-content" ><!-- Your content goes here --></div>
+		
+<div><h1 style="color:white;font-family:Open Sans Light;background-color:black;" class="w3-wide w3-center"><b>CINEMA SOPS<b></h2></div> 
+
+<div style="background-color:#f9ca12;font-size:190%;font-family:DM Sans;line-height: 1.4;" 
+class="w3-center">Fully vaccinated audiences with Low Risk status are allowed entry into the<br>
+cinema regardless of age in Phase 4 states.<br>
+<br>
+Only fully vaccinated audiences aged 18 and above are allowed into the cinema in other<br>
+states not listed below<br>
+<br>
+Selangor. Kuala Lumpur. Putrajaya. Terengganu. Negeri Sembilan. Melaka<br>  
+<h4 class="w3-row w3-padding-30"></div>
+
+<div style="background-color:#f9ca12;font-size:190%;font-family:DM Sans;line-height: 1.4;" 
+class="w3-center">Social distancing is enforced with gap seats. Only members of the same<br> 
+household bearing proof can sit together in Twin Seats<br>
+<br>
+Masks must be worn at all times unless when eating or drinking <br>
+<h4 class="w3-row w3-padding-30"></div>
+
+<div style="background-color:#f9ca12;font-size:190%;font-family:DM Sans;line-height: 1.4;" 
+class="w3-center">Foods and drinks are only available for purchase when buying tickets<br> 
+online or at the e-Kiosk only<br>
+<h4 class="w3-row w3-padding-30"></div>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style="background-color:yellow">
+<a href="seatbooking.html">Buy</a></button>
+<a href="seatbooking.html">Buy</a></button>
+<div style="background-color:black" class="w3-row w3-padding-48"></div> 
+
+</section>
+ </main>
+</div>
+</body>
+
+<!-- Always shows a footer, even in smaller screens. -->
+<footer class="mdl-mini-footer" style="background-color:black;">
+  <div class="mdl-mini-footer__left-section">
+    <ul class="mdl-mini-footer__link-list">
+    </ul>
+  </div>
+</footer>
+
+</html>
