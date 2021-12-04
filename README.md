@@ -1,5 +1,5 @@
 # MovieTicketWebApp
-Group members:
+Group members (Contributors):
 1. Nur Amalina
 2. Muhammad Irfan
 3. Muhammad Nazhif
